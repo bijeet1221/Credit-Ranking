@@ -1,4 +1,4 @@
-```markdown
+
 # Credit Score Prediction Project
 
 ## Overview
@@ -121,4 +121,3 @@ Feel free to explore, contribute, or report any issues! 🎉
 ### License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-```
