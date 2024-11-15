@@ -37,21 +37,21 @@ The following machine learning models were explored during the development proce
    - Utilizes multiple decision trees for robust and stable predictions.
    - Balanced performance but not the highest.
 
-4. **XGBoost Classifier**
+4. **Gradient Boosting Classifier (SGB)**
    - A powerful gradient boosting framework optimized for speed and performance.
-   - Performed well but slightly lagged behind SGB.
+   - Performed well but slightly lagged behind XGB.
 
-5. **Gradient Boosting Classifier (SGB)**
+5. **XGBoost Classifier**
    - The top-performing model with the highest accuracy.
    - Offers fine-tuned control over learning parameters for optimal results.
-
+  
 ---
 
 ## Results
 
 After hyperparameter tuning using **Optuna** for XGBoost and **BayesSearchCV** for Gradient Boosting and Random Forest, the **Gradient Boosting Classifier (SGB)** emerged as the best model:
 
-- **Highest Accuracy**: Achieved using **SGB** during testing and validation.
+- **Highest Accuracy**: Achieved using **XGB** during testing and validation.
 
 ---
 
@@ -102,7 +102,7 @@ After hyperparameter tuning using **Optuna** for XGBoost and **BayesSearchCV** f
 
 - Ensemble models like **Gradient Boosting** and **XGBoost** outperform single decision tree models for complex datasets.
 - Proper hyperparameter tuning significantly enhances model performance.
-- The **Gradient Boosting Classifier** strikes the best balance between accuracy and interpretability.
+- The **XGBoost Classifier** strikes the best balance between accuracy and interpretability.
 
 ---
 
@@ -118,6 +118,3 @@ Feel free to explore, contribute, or report any issues! 🎉
 
 ---
 
-### License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
