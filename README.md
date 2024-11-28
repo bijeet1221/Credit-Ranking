@@ -49,7 +49,7 @@ The following machine learning models were explored during the development proce
 
 ## Results
 
-After hyperparameter tuning using **Optuna** for XGBoost and **BayesSearchCV** for Gradient Boosting and Random Forest, the **Gradient Boosting Classifier (SGB)** emerged as the best model:
+After hyperparameter tuning using **Optuna** for XGBoost and **BayesSearchCV** for Gradient Boosting and Random Forest, the **Gradient Boosting Classifier** emerged as the best model:
 
 - **Highest Accuracy**: Achieved using **XGB** during testing and validation.
 
