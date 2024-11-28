@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project aims to build a machine learning model to predict **credit score categories** (`good`, `standard`, `poor`) based on customer data. The model leverages various supervised learning algorithms, and the **Gradient Boosting (SGB)** model achieved the highest accuracy during experimentation.
+This project aims to build a machine learning model to predict **credit score categories** (`good`, `standard`, `poor`) based on customer data. The model leverages various supervised learning algorithms, and the **Gradient Boosting** model achieved the highest accuracy during experimentation.
 
 ---
 
@@ -37,7 +37,7 @@ The following machine learning models were explored during the development proce
    - Utilizes multiple decision trees for robust and stable predictions.
    - Balanced performance but not the highest.
 
-4. **Gradient Boosting Classifier (XGB)**
+4. **Gradient Boosting Classifier**
    - A powerful gradient boosting framework optimized for speed and performance.
    - Performed well but slightly lagged behind XGB.
 
