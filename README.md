@@ -37,7 +37,7 @@ The following machine learning models were explored during the development proce
    - Utilizes multiple decision trees for robust and stable predictions.
    - Balanced performance but not the highest.
 
-4. **Gradient Boosting Classifier (SGB)**
+4. **Gradient Boosting Classifier (XGB)**
    - A powerful gradient boosting framework optimized for speed and performance.
    - Performed well but slightly lagged behind XGB.
 
